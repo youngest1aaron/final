@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: aqua;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+        }
+
+            .header h1 {
+                font-size: 50px;
+            }
+
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            /* Change color on hover */
+            .topnav a:hover {
+                background-color: whitesmoke;
+                color: black;
+            }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #whitesmoke;
+            padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+            background-color: #whitesmoke;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: whitesmoke;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #whitesmoke;
+            margin-top: 20px;
+        }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .topnav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>YOUNGINSOUL'S FAVORITE SKATEBOARD WEBSITES</h1>
+        <p> NONE OF THESE WEBSITES ARE MINE AND BELONG TO...</p>
+    </div>
+
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>THRASHER HALL OF MEAT</h2>
+                <h5>One of the most popular websites for all skateboard companies</h5>
+<img src="https://media.titus.de/media/image/2b/7e/09/Thrasher-Verschiedenes-Skate-Mag-Super-Sticker-red-Vorderansicht_600x600.jpg" />
+                <p><a href="http://www.thrashermagazine.com/">THRASHER WEBSITE</a></p>
+
+               
+            </div>
+            <div class="card">
+                <h2>SAN DIEGO SKATE SHOPS</h2>
+                <h5>THESE SKATESHOPS INSPIRED YOUNGINSOUL</h5>
+                <a data-flickr-embed="true" href="https://www.flickr.com/photos/157738582@N06/32039860928/in/dateposted-public/" title="Capture"><img src="https://farm5.staticflickr.com/4824/32039860928_472b7d7118_b.jpg" width="840" height="253" alt="Capture"></a>
+
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>LOCAL SKATE SHOPS</h2>
+                <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/11896061_1035373096495359_4109720231880764536_n.jpg?_nc_cat=102&_nc_ht=scontent-lax3-1.xx&oh=53ef1f8ecc04667e8c90c5f057afb5cf&oe=5CA4CDAD" />
+                <p><a href="http://www.shopoverload.com/">OVERLOAD WEBSITE</a></p>
+
+            </div>
+            <div class="card">
+                <img src="http://www.typicalculture.com/articles/route44/frontdoor.jpg" width="400">
+                <p><a href="http://www.typicalculture.com/articles/route44/">ROUTE 44 WEBSITE</a></p>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>INSTAGRAM: Young_Will_Good</p>
+            </div>
+        </div>
+    </div>
+
+    <a href="final.html">BACK TO MAIN PAGE </a>
+
+
+</body>
+</html>

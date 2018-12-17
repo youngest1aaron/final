@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a data-flickr-embed="true" href="https://www.flickr.com/photos/157738582@N06/32039860928/in/dateposted-public/" title="Capture"><img src="https://farm5.staticflickr.com/4824/32039860928_472b7d7118_b.jpg" width="840" height="253" alt="Capture"></a>
+        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    <h2>Three Color Options</h2>
+
+    <div class="row">
+        <div class="column" style="background-color:#white;">
+            <img src="https://churchm.ag/wp-content/uploads/2011/08/plain-white-t-shirt.jpg" alt="Mountains" style="width:50%">
+
+            <h2>White YounginSoul TSHIRT</h2>
+            <p>$20.00</p>
+
+        </div>
+        <div class="column" style="background-color:#white;">
+            <img src="http://clipart-library.com/img1/1903476.jpg" alt="Mountains" style="width:100%">
+
+            <h2>Black YounginSoul TSHIRT</h2>
+            <p>$20.00</p>
+
+        </div>
+        <div class="column" style="background-color:#white;">
+            <img src="https://images.eastbay.com/pi/800SPGY/zoom/gildan-team-50%252F50-dry-blend-t-shirt-mens" alt="Mountains" style="width:55%">
+            <h2>Grey/Gray YounginSoul TSHIRT</h2>
+            <p>$20.00</p>
+            <p> </p>
+            <a href="final.html"> BACK TO MAIN PAGE </a>
+
+        </div>
+    </div>
+
+
+</body>
+</html>

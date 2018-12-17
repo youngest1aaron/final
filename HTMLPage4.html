@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        body {
+            background-color: aqua;
+            margin: 0;
+        }
+
+        .header {
+            background-color: whitesmoke;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                /* Change color on hover */
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+        body {
+            margin: 0;
+        }
+
+        /* Style the header */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a data-flickr-embed="true" href="https://www.flickr.com/photos/157738582@N06/32039860928/in/dateposted-public/" title="Capture"><img src="https://farm5.staticflickr.com/4824/32039860928_472b7d7118_b.jpg" width="840" height="253" alt="Capture"></a>
+        <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </div>
+    
+    <img src="http://www.calstatela.edu/sites/default/files/styles/large/public/images/articles/headline_herologo_reverse150_2.png?itok=Wb9ZcmWG" />
+    <img src="http://www.wtc.k12.mn.us/wp-content/uploads/2014/01/Graphics-Good-Pics-7.jpg" style="width:400px;">
+    <img src="https://daridesignstudio.com/wp-content/uploads/2018/10/mbp_2017_15photoshop-2-1024x576.jpg" style="width:500px;" />
+    <img src="https://i1.wp.com/heatherhollick.com/wp-content/uploads/2014/04/Network.jpeg" style="width:490px;" />
+    <a href="final.html">BACK TO MAIN PAGE </a>
+
+</body>
+</html>
